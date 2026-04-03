@@ -1,76 +1,43 @@
 # Universal Indicator Protocol
 
-## A Decision Layer for AI Systems
+## 一套將資料轉化為「可直接行動決策」的 AI 決策引擎
 
-Most AI systems can generate answers.
-
-But they cannot decide.
-
-The missing layer is not intelligence.
-
-It is decision structure.
+讓 AI 不只會分析，而是能立即判斷與執行
 
 ---
 
-## Problem
+## 說明
 
-Today’s AI systems:
+大多數 AI 只能生成內容，但無法真正做出決策。
 
-- generate text
-- predict tokens
-- simulate reasoning
-
-But they lack:
-
-- structured decision outputs
-- consistent evaluation
-- actionable signals
-
-This makes them difficult to use in real-world operations.
+Universal Indicator Protocol 的核心目標，是建立一個「決策層」，讓系統可以將原始資料轉換為可行動的決策訊號。
 
 ---
 
-## Solution
+## 應用
 
-Universal Indicator Protocol introduces a decision abstraction layer.
-
-It transforms raw, heterogeneous data into:
-
-- normalized signals
-- structured states
-- decision-readable outputs
+- 客戶判斷（是否接單）
+- 營運決策（什麼時間、賣什麼）
+- 廣告策略（何時投放、如何優化）
+- 自動化流程控制
 
 ---
 
-## Capabilities
+## Demo
 
-This enables:
+輸入：
+今天客人變少
 
-- automated decision systems
-- business intelligence pipelines
-- real-time adaptive workflows
-- AI-driven operational control
-
----
-
-## Positioning
-
-This is not an AI model.
-
-This is a decision layer for AI systems.
+輸出：
+- 判斷：流量下降
+- 信號：低活躍時段
+- 建議：推出限時優惠 + 下午3點發文
 
 ---
 
-## Scope
+## 定位
 
-This repository focuses on protocol definition and structural interfaces.
+這不是一個 AI 模型
 
-Implementation details, internal modeling logic, scoring strategies,
-and decision mechanisms are intentionally excluded.
-
----
-
-## Status
-
-This project is under active development and refinement.
+這是一個 AI 的「決策層」
 
