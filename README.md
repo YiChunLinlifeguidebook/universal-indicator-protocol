@@ -1,86 +1,46 @@
 # Universal Indicator Protocol（UIP）
-## AI決策引擎｜讓AI直接做決定、直接產生行動
+## AI 決策層｜把資料轉成可執行結果
 
 ---
 
 ## 一句話
 
-把資料直接轉成「可以執行、可以賺錢的決策」
+把原始資料轉成可行動的決策輸出，降低多輪分析成本，提升決策效率。
 
 ---
 
-## 核心問題
+## 這是什麼
 
-現在的AI：
+UIP（Universal Indicator Protocol）是一個可接入 AI / MCP / workflow 的決策層。
 
-✔ 會聊天  
-✔ 會分析  
-✔ 會生成內容  
-
-❌ 但無法穩定做出「可執行決策」
+它的作用不是取代模型，
+而是讓系統更快進入「可執行結果」。
 
 ---
 
-## UIP 解決什麼
+## 能帶來什麼效益
 
-UIP（Universal Indicator Protocol）
+導入後可協助系統：
 
-是一個 AI 的「決策層」
-
-把原始資料 → 轉成：
-
-- 判斷
-- 建議
-- 行動方案
+- 縮短決策流程
+- 提升輸出一致性
+- 強化訊號品質
+- 降低反覆分析成本
+- 更容易接入自動化流程
 
 ---
 
-## 為什麼重要
+## 實驗結果預覽
 
-你不缺資料  
-你缺的是：
+在模擬決策流程中：
 
-👉「下一步該怎麼做」
+- 傳統多輪分析：約 4.5 秒
+- UIP 單次決策：約 1 秒
 
-UIP 直接給你答案
+👉 基礎測試可見約 4x～5x 的流程縮短效果
 
----
-
-## MCP 加速能力（關鍵）
-
-UIP 可直接接入 MCP / AI 自動化系統
-
-讓 AI：
-
-- 不再反覆推理
-- 不再重複生成
-- 不再多輪思考
-
-👉 直接輸出決策
-
----
-
-### 實際差異
-
-傳統 AI：
-
-- 多輪對話
-- 多次推理
-- 延遲決策
-
-UIP + MCP：
-
-- 單次輸入
-- 直接決策輸出
-- 即時行動
-
----
-
-### 效率提升（實務層）
-
-在流程決策場景中：
-
-👉 可將決策流程縮短數倍（依場景可達 2x ~ 10x）
+在高頻、可結構化場景中，
+整體 time-to-decision 仍有進一步優化空間。
 
 ---
 
@@ -96,120 +56,51 @@ UIP + MCP：
 
 ---
 
-## 商業價值
+## 適用方向
 
-使用 UIP：
-
-- 接單判斷更快
-- 錯誤決策降低
-- 行銷反應時間縮短
-- 營運效率提升
-
-👉 從「思考」變成「直接執行」
+- AI 自動化流程
+- MCP / agent 協作系統
+- 客戶分流與接單判斷
+- 營運決策輔助
+- 廣告與行動策略輸出
 
 ---
 
-## 定位
+## 合作方式
 
-這不是聊天AI  
-這不是單一模型  
-
-👉 這是一個 AI 的「決策引擎」
-
----
-
-## 核心概念
-
-UIP 補上了 AI 缺失的關鍵層：
-
-👉 Decision Layer（決策層）
-
-讓 AI 從工具 → 變成可執行系統
-
----
-
-## 範圍說明
-
-本專案公開：
+目前公開版本提供：
 
 - 架構
 - 概念
-- 應用方向
+- 效益方向
+- 基礎實驗結果
 
-未公開：
+未公開內容包含：
 
-- 判斷邏輯
-- 評估系統
-- 內部決策機制
+- 決策核心
+- 評估機制
+- 內部路由
+- 權重邏輯
+- 進階整合方法
 
----
-
-## 狀態
-
-持續開發中  
-已具備實際應用與商業潛力
-
+👉 進一步能力、完整版本與整合細節，採合作或授權方式提供。
 
 ---
 
-## Benchmark（實測）
+## Positioning
 
-在模擬決策流程中：
+This is not just another chat AI.
 
-- 傳統多輪推理：約 4.5 秒
-- UIP 單次決策：約 1 秒
-
-👉 決策速度提升：約 4x～5x（基礎測試）
-
-在更複雜流程中，理論可進一步提升至數倍以上（依場景而定）
-
+It is a decision layer for executable AI systems.
 
 ---
 
-## 與現有 AI 的核心差異
-
-現有 AI 系統：
-
-- 依賴多輪推理（multi-step reasoning）
-- 決策延遲高（high latency）
-- 每次輸出不穩定（inconsistent outputs）
-- 難以直接接入營運流程
-
-UIP：
-
-- 單次決策輸出（single-pass decision）
-- 決策延遲顯著降低（low latency）
-- 結果結構化且可重複（structured & consistent）
-- 可直接接入 MCP / workflow / 自動化系統
-
-👉 本質差異不是「更聰明」
-👉 而是「決策方式的改變」
-
-
----
-
-## 合作模式（Commercial Model）
-
-UIP 採分階段導入：
-
-Phase 1：
-建立決策層，實現基礎決策能力與流程優化（已具備實際效益）
-
-Phase 2：
-升級為完整決策系統，整合進階模組與複雜場景應用
-
-此模式可降低導入風險，
-並逐步擴大系統價值與效益
-
-
----
-
-## Legal & Intellectual Property
+## Legal & Origin
 
 © 2026 YiChunLinlifeguidebook. All rights reserved.
 
-The concept, structure, and expression of the Universal Indicator Protocol (UIP)
-are original works and protected by copyright law.
+Universal Indicator Protocol (UIP) is first introduced and defined by
+YiChunLinlifeguidebook as a decision-layer architecture for AI systems.
 
 Core internal mechanisms and evaluation systems are proprietary
 and are not disclosed in this repository.
@@ -217,30 +108,12 @@ and are not disclosed in this repository.
 Any commercial use, reproduction, or derivative work based on this system
 requires explicit authorization.
 
-
 ---
 
-## Origin Statement
+## Status
 
-Universal Indicator Protocol (UIP) is first introduced and defined by
-YiChunLinlifeguidebook as a decision-layer architecture for AI systems.
+目前為第一階段版本。
 
-This repository serves as the initial public definition and reference.
-
-
----
-
-## Core System Protection
-
-The following components are NOT disclosed:
-
-- Decision logic structure
-- Internal weighting system
-- Internal evaluation mechanisms
-- Internal routing architecture
-- MCP integration structure and execution framework
-
-These components form the proprietary core of UIP.
-
-Any implementation details presented are conceptual only.
+已可展示概念、效益與應用方向，
+更高階決策模組與完整整合能力僅在合作情境下提供。
 
