@@ -1,3 +1,13 @@
+> **Project Status**
+> This project is still under active revision and structural refinement.
+> The public materials in this repository represent an early but usable framework baseline.
+> The architecture is not finalized yet, but it is already open for technical discussion, collaboration, and early-stage commercial conversation.
+>
+> **專案狀態**
+> 本專案目前仍在持續改版、調整架構與細化內容中。
+> 此公開倉庫所呈現的是一個早期但可用的框架基線版本。
+> 整體架構尚未最終定稿，但已經可以進入技術交流、合作討論與早期商談階段。
+
 # Universal Indicator Protocol
 
 ## English
