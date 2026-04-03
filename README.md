@@ -185,3 +185,35 @@ UIP：
 👉 本質差異不是「更聰明」
 👉 而是「決策方式的改變」
 
+
+---
+
+## 合作模式（Commercial Model）
+
+UIP 採分階段導入：
+
+Phase 1：
+建立決策層，實現基礎決策能力與流程優化（已具備實際效益）
+
+Phase 2：
+升級為完整決策系統，整合進階策略與複雜場景應用
+
+此模式可降低導入風險，
+並逐步擴大系統價值與效益
+
+
+---
+
+## Legal & Intellectual Property
+
+© 2026 YiChunLinlifeguidebook. All rights reserved.
+
+The concept, structure, and expression of the Universal Indicator Protocol (UIP)
+are original works and protected by copyright law.
+
+Core decision mechanisms, scoring systems, and internal logic are proprietary
+and are not disclosed in this repository.
+
+Any commercial use, reproduction, or derivative work based on this system
+requires explicit authorization.
+
