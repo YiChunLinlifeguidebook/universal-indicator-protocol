@@ -227,3 +227,20 @@ YiChunLinlifeguidebook as a decision-layer architecture for AI systems.
 
 This repository serves as the initial public definition and reference.
 
+
+---
+
+## Core System Protection
+
+The following components are NOT disclosed:
+
+- Decision logic structure
+- Signal weighting system
+- Scoring and evaluation mechanisms
+- Internal decision-routing architecture
+- MCP integration logic and execution flow
+
+These components form the proprietary core of UIP.
+
+Any implementation details presented are conceptual only.
+
