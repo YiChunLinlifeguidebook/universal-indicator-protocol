@@ -139,7 +139,7 @@ UIP 補上了 AI 缺失的關鍵層：
 未公開：
 
 - 判斷邏輯
-- scoring系統
+- 評估系統
 - 內部決策機制
 
 ---
@@ -196,7 +196,7 @@ Phase 1：
 建立決策層，實現基礎決策能力與流程優化（已具備實際效益）
 
 Phase 2：
-升級為完整決策系統，整合進階策略與複雜場景應用
+升級為完整決策系統，整合進階模組與複雜場景應用
 
 此模式可降低導入風險，
 並逐步擴大系統價值與效益
@@ -211,7 +211,7 @@ Phase 2：
 The concept, structure, and expression of the Universal Indicator Protocol (UIP)
 are original works and protected by copyright law.
 
-Core decision mechanisms, scoring systems, and internal logic are proprietary
+Core internal mechanisms and evaluation systems are proprietary
 and are not disclosed in this repository.
 
 Any commercial use, reproduction, or derivative work based on this system
@@ -235,10 +235,10 @@ This repository serves as the initial public definition and reference.
 The following components are NOT disclosed:
 
 - Decision logic structure
-- Signal weighting system
-- Scoring and evaluation mechanisms
-- Internal decision-routing architecture
-- MCP integration logic and execution flow
+- Internal weighting system
+- Internal evaluation mechanisms
+- Internal routing architecture
+- MCP integration structure and execution framework
 
 These components form the proprietary core of UIP.
 
