@@ -217,3 +217,13 @@ and are not disclosed in this repository.
 Any commercial use, reproduction, or derivative work based on this system
 requires explicit authorization.
 
+
+---
+
+## Origin Statement
+
+Universal Indicator Protocol (UIP) is first introduced and defined by
+YiChunLinlifeguidebook as a decision-layer architecture for AI systems.
+
+This repository serves as the initial public definition and reference.
+
