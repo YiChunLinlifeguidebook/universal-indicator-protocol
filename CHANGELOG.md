@@ -1,5 +1,12 @@
 Changelog
 
+v0.3.0 - 2026-04-07
+
+- Added `InputMode` type (`"keyboard" | "voice" | "hybrid"`) to the Event Bus
+- Extended `MessageEvent.payload` with optional `inputMode` field to support hybrid voice + keyboard input
+- Updated architecture documentation to describe `InputMode` options
+- Exported `InputMode` from the event-bus public surface
+
 v0.2.0 - 2026-04-04
 
 - Added AI 協作會議室（AI Collaboration Meeting Room）architecture blueprint

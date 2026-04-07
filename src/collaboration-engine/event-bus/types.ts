@@ -2,6 +2,17 @@
 // AI 協作會議室 — Event Bus Types
 // ─────────────────────────────────────────────────────────────
 
+/**
+ * How a message was composed by the sender.
+ *
+ * - `"keyboard"` — typed via a physical or on-screen keyboard.
+ * - `"voice"`    — dictated via speech-to-text only.
+ * - `"hybrid"`   — composed using both voice and keyboard together
+ *                  (e.g. speech-to-text corrected by manual edits,
+ *                  or a mix of spoken and typed segments).
+ */
+export type InputMode = "keyboard" | "voice" | "hybrid";
+
 /** All event types supported by the Event Bus. */
 export type EventType =
   | "message"
@@ -32,6 +43,13 @@ export type MessageEvent = BaseEvent & {
     content: string;
     /** Optional list of agent IDs to address directly. */
     mentions?: string[];
+    /**
+     * How the message was composed.
+     * Defaults to `"keyboard"` when omitted.
+     * Use `"voice"` for speech-to-text only input,
+     * and `"hybrid"` when voice and keyboard were used together.
+     */
+    inputMode?: InputMode;
   };
 };
 
