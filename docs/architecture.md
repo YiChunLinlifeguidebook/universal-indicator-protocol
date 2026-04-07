@@ -8,7 +8,7 @@ Data Sources
 → Feature Extraction Layer
 → Indicator Engine
 → Scoring Layer
-→ Decision Interface
+→ Output Interface
 → Output / API / Logs
 
 ## Layer Summary
@@ -46,10 +46,10 @@ Data Sources
 
 7. **Decision Interface**
 
-   Outputs a standardized bundle that can be consumed by decision systems.
+   Outputs a standardized bundle that can be consumed by downstream systems.
 
 ## 中文摘要
 
 這套架構的目的不是單純展示資料，
 而是把各種來源的原始資料，轉成統一可讀、可比、可追蹤的技術指標，
-作為決策系統的中介層。
+作為下游系統的中介層。
