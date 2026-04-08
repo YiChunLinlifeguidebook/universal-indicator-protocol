@@ -1,5 +1,7 @@
-# Universal Indicator Protocol（UIP）
-## AI 決策層｜把資料轉成可執行結果
+# Faster Than Light
+### 決策引擎 — 比光速還快的 AI 決策核心
+
+> *A universal indicator protocol for transforming heterogeneous raw data into normalized signals, quasi-quantum state abstractions, and decision-readable representations. — Faster Than Light: the decision engine that moves before the answer even exists.*
 
 ---
 
@@ -115,5 +117,4 @@ requires explicit authorization.
 目前為第一階段版本。
 
 已可展示概念、效益與應用方向，
-更高階決策模組與完整整合能力僅在合作情境下提供。
-
+更高階決策模組與完整整合能力僅在合作情境下提供.
