@@ -1,0 +1,14 @@
+{
+  "name": "faster-than-light-website",
+  "version": "1.0.0",
+  "description": "Faster Than Light — Commercial website for Cloudflare Pages",
+  "private": true,
+  "scripts": {
+    "dev": "npx wrangler pages dev ./website",
+    "deploy": "npx wrangler pages deploy ./website",
+    "deploy:preview": "npx wrangler pages deploy ./website --branch preview"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
