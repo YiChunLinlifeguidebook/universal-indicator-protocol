@@ -1,3 +1,4 @@
+export { MemoryAdapter } from "./MemoryAdapter.js";
 export type {
   MemoryRecord,
   MeetingSummary,

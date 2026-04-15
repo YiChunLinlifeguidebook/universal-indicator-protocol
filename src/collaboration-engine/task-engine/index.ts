@@ -1,3 +1,4 @@
+export { TaskEngine } from "./TaskEngine.js";
 export type {
   TaskStatus,
   Task,

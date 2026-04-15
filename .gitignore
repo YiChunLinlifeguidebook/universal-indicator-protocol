@@ -1,0 +1,8 @@
+node_modules/
+.wrangler/
+dist/
+*.tsbuildinfo
+*.log
+.env
+.env.local
+.env.production

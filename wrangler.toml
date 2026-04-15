@@ -1,0 +1,16 @@
+# Cloudflare Pages — Project Configuration
+# https://developers.cloudflare.com/pages/configuration/wrangler-configuration/
+#
+# Usage:
+#   npx wrangler pages deploy ./website
+#   npx wrangler pages dev ./website
+
+name = "faster-than-light"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "./website"
+
+[env.production]
+name = "faster-than-light"
+
+[env.preview]
+name = "faster-than-light-preview"
