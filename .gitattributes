@@ -1,0 +1,5 @@
+# Ensure consistent line endings for text files
+* text=auto
+
+# Mark binary files explicitly
+*.pdf binary
