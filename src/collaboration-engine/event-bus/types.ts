@@ -9,7 +9,8 @@ export type EventType =
   | "grant_speak"
   | "handoff_task"
   | "task_result"
-  | "memory_write_request";
+  | "memory_write_request"
+  | "follow_activity";
 
 /** Base shape shared by every bus event. */
 export type BaseEvent = {
@@ -90,6 +91,23 @@ export type MemoryWriteRequestEvent = BaseEvent & {
   };
 };
 
+/** Emitted when the FollowerWatcher detects a change in GitHub followers. */
+export type FollowActivityEvent = BaseEvent & {
+  type: "follow_activity";
+  payload: {
+    /** The GitHub username that was monitored. */
+    entityId: string;
+    /** Net change in follower count (positive = gained, negative = lost). */
+    delta: number;
+    /** Logins of newly gained followers. */
+    newFollowers: string[];
+    /** Logins of lost followers. */
+    lostFollowers: string[];
+    /** Human-readable summary of the activity. */
+    summary: string;
+  };
+};
+
 /** Discriminated union of all concrete event types. */
 export type BusEvent =
   | MessageEvent
@@ -97,7 +115,8 @@ export type BusEvent =
   | GrantSpeakEvent
   | HandoffTaskEvent
   | TaskResultEvent
-  | MemoryWriteRequestEvent;
+  | MemoryWriteRequestEvent
+  | FollowActivityEvent;
 
 /** Callback signature for event subscribers. */
 export type EventHandler<T extends BusEvent = BusEvent> = (event: T) => void;

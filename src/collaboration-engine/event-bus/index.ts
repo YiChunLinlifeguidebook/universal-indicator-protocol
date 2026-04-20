@@ -10,4 +10,5 @@ export type {
   HandoffTaskEvent,
   TaskResultEvent,
   MemoryWriteRequestEvent,
+  FollowActivityEvent,
 } from "./types.js";
