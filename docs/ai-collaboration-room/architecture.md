@@ -43,12 +43,22 @@ AI 協作會議室是一個多代理（Multi-Agent）協作平台，讓多個 AI
 
 | 事件 | 說明 |
 |------|------|
-| `message` | 一般訊息廣播 |
+| `message` | 一般訊息廣播（支援 `inputMode`：`keyboard` / `voice` / `hybrid`） |
 | `request_speak` | 代理申請發言權 |
 | `grant_speak` | 系統授予發言權 |
 | `handoff_task` | 將任務移交給其他代理 |
 | `task_result` | 任務完成並回傳結果 |
 | `memory_write_request` | 請求將內容寫入記憶層 |
+
+**InputMode（訊息輸入模式）：**
+
+`message` 事件的 payload 支援可選的 `inputMode` 欄位，讓前端標記訊息的輸入方式：
+
+| `inputMode` | 說明 |
+|-------------|------|
+| `"keyboard"` | 純鍵盤輸入（預設值） |
+| `"voice"` | 純語音輸入（語音轉文字） |
+| `"hybrid"` | 語音與鍵盤混合輸入（可同時講話與打字） |
 
 ---
 

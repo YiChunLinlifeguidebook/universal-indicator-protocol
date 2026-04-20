@@ -4,6 +4,7 @@ export type {
   BaseEvent,
   EventType,
   EventHandler,
+  InputMode,
   MessageEvent,
   RequestSpeakEvent,
   GrantSpeakEvent,
