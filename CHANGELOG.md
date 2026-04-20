@@ -1,5 +1,17 @@
 Changelog
 
+v0.3.0 - 2026-04-05
+
+- Added TypeScript project configuration (package.json, tsconfig.json)
+  - ES module output targeting ES2020
+  - NodeNext module resolution to support .js import extensions
+  - `npm run typecheck` — zero-error type check across all source files
+- Added GitHub Actions CI workflow (.github/workflows/ci.yml)
+  - Runs TypeScript type check on every pull request targeting main
+- Added GitHub Actions auto-approve workflow (.github/workflows/auto-approve.yml)
+  - Automatically approves pull requests when CI passes
+  - Triggered by workflow_run on CI completion
+
 v0.2.0 - 2026-04-04
 
 - Added AI 協作會議室（AI Collaboration Meeting Room）architecture blueprint

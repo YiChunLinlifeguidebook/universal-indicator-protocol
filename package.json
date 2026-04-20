@@ -1,0 +1,24 @@
+{
+  "name": "universal-indicator-protocol",
+  "version": "0.3.0",
+  "description": "A universal indicator protocol for transforming heterogeneous raw data into normalized signals and decision-readable representations.",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "indicator",
+    "protocol",
+    "ai",
+    "decision",
+    "normalization"
+  ],
+  "author": "YiChunLinlifeguidebook",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
