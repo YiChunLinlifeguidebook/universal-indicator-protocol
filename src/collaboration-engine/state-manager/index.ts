@@ -1,3 +1,4 @@
+export { StateManager } from "./StateManager.js";
 export type {
   AgentStatus,
   AgentState,

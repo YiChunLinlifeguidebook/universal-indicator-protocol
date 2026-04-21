@@ -1,0 +1,8 @@
+# Cloudflare Pages — Redirect Rules
+# https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Redirect bare domain to www (update to your domain)
+# https://yourdomain.com/* -> https://www.yourdomain.com/:splat 301
+
+# SPA fallback — serve index.html for all unmatched routes
+/*    /index.html   200
