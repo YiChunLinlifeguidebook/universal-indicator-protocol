@@ -123,20 +123,20 @@ requires explicit authorization.
 
 ## GitHub / GCP 帳號轉接操作清單
 
-針對 `jpewl.foreverhome@gmail.com` 的「原地轉生」流程：
+針對「本帳號主控信箱」的「原地轉生」流程：
 
 1. **GitHub Web（Settings → Emails）**
-   - 新增並驗證 `jpewl.foreverhome@gmail.com`
+   - 新增並驗證「本帳號主控信箱」
    - 將該信箱設為 **Primary**
 
 2. **Termux：驗證 SSH 連線**
    - `ssh -T git@github.com`
 
 3. **Termux：修正 Git 全域設定**
-   - `git config --global user.email "jpewl.foreverhome@gmail.com"`
+   - `git config --global user.email "本帳號主控信箱"`
    - `git config --global user.name "YiChun"`
 
 4. **GCP Web：Billing 權限確認**
    - 前往舊 Billing Account 的 **IAM / Access control**
-   - 手動加入 `jpewl.foreverhome@gmail.com` 為 **Billing Account Administrator**
+   - 手動加入「本帳號主控信箱」為 **Billing Account Administrator**
    - 若仍受 `[OR_BACR2_44]` 影響，需改由既有可用結算帳戶擁有者操作或聯絡 Google Cloud Billing Support
